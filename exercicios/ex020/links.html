@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="py-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>LInks</title>
+    <style>
+
+        /*  SELETORES PERSONALIZADOS
+            #   = id
+            .   = class
+            :   = pseudo-class
+            ::  = pseudo-element
+            >   = children
+        */
+
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a {
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:visited {
+            color: darkred;
+        }
+        a:hover {
+            color: black;
+            text-decoration: underline;
+        }
+        a:active {
+            color: blueviolet;
+        }
+
+        .especial {
+            background-color: #be6363;
+        }
+
+        .especial::before {
+            content: '→ ' ;
+        }
+
+        .especial::after {
+            content: ' ←';
+            
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https://www.digitalcrowd.com.br" target="_blank">Digital Crowd</a></li>
+        <li><a href="https://www.useretina.com" target="_blank" class="especial">Retina Clothing</a></li>
+        <li><a href="https://www.youtube.com/channel/UCLI9QbUynaC-nKDEjlaqJCg" target="_blank">Canal do YouTube</a></li>
+    </ul>
+</body>
+</html>

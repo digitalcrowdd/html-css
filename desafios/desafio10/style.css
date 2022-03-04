@@ -1,0 +1,136 @@
+@charset "UTF8";
+
+@font-face {
+    font-family:'idroid';
+    src: url('fontes/idroid.otf');
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;    
+}
+
+body {
+    text-align: justify;
+    margin: 0px;
+    background-color: #9bebbc;
+}
+
+header {
+    padding: 1px;
+    margin: 0px;
+    background-image: linear-gradient(#3b813b, #0e420e);
+}
+
+h1#cabecalho { 
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+header > p {
+    color: white;
+    text-align: center;    
+}
+
+nav {
+    background-color: #0e420e63;
+    margin: 0px;
+    height: 20px;
+    padding: 10px;    
+}
+
+nav > a {
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    margin: 8px;    
+}
+
+main {
+    box-shadow: 3px 4px 12px 2px #00000048;
+}
+
+h2 {
+    color: #0e420e;
+    font-family: 'idroid';
+}
+
+h3 {
+    background-color: #b8eece;
+    font-family: 'idroid';
+    color: #0e420e;
+}
+
+main#artigo {
+    background-color: white;
+    width: 800px;
+    padding: 10px;
+    margin: auto;
+}
+
+main#video {
+    background-color: #0e420e;
+    height: 400px;
+    width: 800px;
+    padding: 10px;
+    margin: auto;
+}
+
+main#listas {
+    background-color: white;
+    width: 800px;
+    padding: 10px;
+    margin: 0px auto 10px auto;
+}
+
+
+
+h2#fundo {
+    background-color: #49da85;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    height: 20px;
+    padding: 10px;  
+    margin: auto;
+    border-radius: 10px 10px 0px 0px;
+}
+
+section#segunda {
+    background-color: #c5f7da;
+    width: 700px;
+    margin: auto;
+    border-radius: 10px;
+}
+
+li {
+    font-weight: bold;
+}
+
+a#unica {
+    color: #0e420e;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#unica:hover {
+    color: #1721b8;
+    text-decoration: underline;
+}
+
+span {
+    font-weight: bold;
+    color: #0e420e
+    
+}
+
+
+footer {
+    background-color: #0e420e;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    margin: 0px;
+}
+
+footer > p {
+    margin: 0px;
+}
